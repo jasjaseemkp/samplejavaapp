@@ -29,7 +29,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
                 this.targetMethod = prepareTargetMethod(sortField);
                 this.sortAscending = true;
         }
-        /*
+        /**
          * This function call base GenericComparator(boolean sortField,sortAscending) class and set which field we need to sort and sort based on the boolen value given
          * sortAscending = true then ascending
          * sortAscending = false then descending
